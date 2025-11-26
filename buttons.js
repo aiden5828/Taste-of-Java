@@ -20,5 +20,16 @@ function alerter() {
 
 function toggledark() {
     // console.log("DARKMODE");
-    document.body.classList.toggle("darkmode")
+    document.body.classList.toggle("darkmode");
+}
+
+function wacky() {
+    console.log("AHHHHHHHHHHHHHHHHH");
+    document.getElementById("instructions").classList.toggle("flipped");
+    if(document.getElementById("pagetitle").innerHTML === "The Powerful Buttons") {
+        document.getElementById("pagetitle").innerHTML = "The Weak Buttons"
+    }
+    else {
+        document.getElementById("pagetitle").innerHTML = "The Powerful Buttons"
+    }
 }

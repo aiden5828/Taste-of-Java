@@ -37,3 +37,11 @@ body.darkmode main {
   color: white;
   transition: background-color 10s, color 5s;
 }
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+#instructions {
+  transition: transform 5s;
+}
